@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+:root{
+    --roxo-destaque: #9747FF;
+    --roxo-hover: #8233E8;
+    --offwhite: #FFFFFF;
+    --grafite: #232323;
+    --fundo-dark: #0E1014;
+    --fonte: "Poppins", sans-serif;
+    --fonte-titulo: "Unbounded", sans-serif;
+    --branco: #FFFFFF;
+}
+
+/* Fundo do site */
+body{
+    background-color: var(--fundo-dark);
+    color: var(--offwhite);
+    height: 100vh
+}
+
+/* LOGO */
+header img {
+    display: block;
+    margin: 75px 0 0 360px;
+}
+
+/* Titulo */
+h1{
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* destaque no titulo */
+h1 span{
+    color: var(--roxo-destaque);
+}
+
+/* PARAGRAFO */
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: center; /*Centralizar texto*/
+    margin: 24px auto 0; /*Margem de 24px no topo, automatico nas laterais pra centralizar e 0 em baixo*/
+    width: 792px; /*Largura total do texto*/
+}
+
+/* BOTÃO */
+a{
+  display: block; /*Mudando o display do botão pra poder centralizar*/
+  width: 260px; /*Centralizar botão*/
+  height: 52px; /*Centralizar botão*/
+
+  background: var(--roxo-destaque);
+  color: #ffffff;
+
+  text-align: center; /*Centralizar botão*/
+  line-height: 52px; /*Centralizar botão*/
+
+  font-family: var(--fonte);
+  font-size: 16px;
+  text-decoration: none;
+
+  border-radius: 36px; /*Borda redonda do botão*/
+
+  margin: 40px auto; /*Margem dos outros elementos*/
+}
+
+a:hover {
+    background-color: var(--roxo-hover);
+}
+
+/* IMAGEM PRINCIPAL */
+section img{
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 0 auto;
+}
+
+@media(max-width: 768px){
+
+    header img {
+        margin: 65px 0 0 60px;
+    }
+
+    p {
+        width: 648px;
+    }
+
+}
+
+@media(max-width: 375px){
+
+    header img{
+        margin: 32px 0 0 16px;
+        
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        width: 340px;
+    }
+
+    a {
+        font-size: 20px;
+        width: 251px;
+    }
+
+    section img {
+        width: 340px;
+        height: 230px;
+    }
+}
