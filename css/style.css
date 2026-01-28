@@ -16,7 +16,9 @@
 body{
     background-color: var(--fundo-dark);
     color: var(--offwhite);
-    height: 100vh
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 /* LOGO */
@@ -79,6 +81,8 @@ section img{
     width: 792px;
     height: 446px;
     margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Responsividade para tablet */
@@ -89,7 +93,8 @@ section img{
     }
 
     p {
-        width: 648px;
+        width: 90%;
+        max-width: 648px;
     }
 
 }
@@ -99,25 +104,28 @@ section img{
 
     header img{
         margin: 32px 0 0 16px;
-        
     }
 
     h1 {
         font-size: 40px;
+        margin-top: 30px;
     }
 
     p {
-        font-size: 20px;
-        width: 340px;
+        font-size: 18px;
+        width: 90%;
+        max-width: 340px;
     }
 
     a {
-        font-size: 20px;
-        width: 251px;
+        font-size: 16px;
+        width: 85%;
+        max-width: 251px;
     }
 
     section img {
-        width: 340px;
-        height: 230px;
+        width: 90%;
+        max-width: 340px;
+        height: auto;
     }
 }
