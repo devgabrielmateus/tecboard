@@ -81,6 +81,7 @@ section img{
     margin: 0 auto;
 }
 
+/* Responsividade para tablet */
 @media(max-width: 768px){
 
     header img {
@@ -93,6 +94,7 @@ section img{
 
 }
 
+/* Responsividade para celular */
 @media(max-width: 375px){
 
     header img{
