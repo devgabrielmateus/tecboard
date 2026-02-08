@@ -10,3 +10,4 @@ Este curso tem como objetivo:
 - Publicar **sites estáticos** utilizando o **GitHub Pages**  
 - Integrar layouts e interfaces por meio do **Figma**, aprimorando a experiência do usuário  
 
+Link: https://devgabrielmateus.github.io/tecboard
